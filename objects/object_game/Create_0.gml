@@ -1,4 +1,4 @@
-score = 990
-lives = 1
+score = 0
+lives = 10
 
 draw_set_font(font_algerian)
