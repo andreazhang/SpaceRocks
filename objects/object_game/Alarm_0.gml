@@ -1,3 +1,5 @@
+/// @description Asteroids spawn
+
 if room != room_game
 	exit
 
