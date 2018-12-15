@@ -50,7 +50,23 @@
             "Key": "49374f01-fd93-475c-906d-7cda2be47c5b",
             "Value": {
                 "id": "5998cf53-8fa8-4e37-890e-237821d74442",
-                "resourcePath": "rooms\\room_space\\room_space.yy",
+                "resourcePath": "rooms\\room_game\\room_game.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4be65059-6c96-44f1-8db9-521f6eef212f",
+            "Value": {
+                "id": "e153f703-e43c-41c0-92a9-c92e8b0ba3d5",
+                "resourcePath": "rooms\\room_win\\room_win.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "56ac1c86-9963-4c24-8d8f-e3f7a3598849",
+            "Value": {
+                "id": "3a08e004-6562-4a74-a8d6-6f6e1cae8f4f",
+                "resourcePath": "rooms\\room_gameover\\room_gameover.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -68,6 +84,14 @@
                 "id": "f459db50-c7dc-4c61-9f15-d9befe898c1f",
                 "resourcePath": "sprites\\sprite_bullet\\sprite_bullet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "673ce2c6-7f15-4272-87ff-170914c4891c",
+            "Value": {
+                "id": "6eb7af59-8d90-4149-8c80-22f70b9ed161",
+                "resourcePath": "fonts\\font_algerian\\font_algerian.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -199,6 +223,14 @@
             }
         },
         {
+            "Key": "bd1aa017-293a-4d3b-b779-11dad2dfebe5",
+            "Value": {
+                "id": "3098cf19-20c7-4e9c-8fcc-65775cb8c3fc",
+                "resourcePath": "rooms\\room_start\\room_start.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c5fca2ef-534c-4241-ab20-789dc3e89693",
             "Value": {
                 "id": "ca760ebc-414d-43c7-a430-4ab922deb20e",
@@ -252,6 +284,14 @@
                 "id": "89b9d3a1-6695-4aee-bfb4-cbc63b2391be",
                 "resourcePath": "views\\f0c00696-333b-4b62-9535-8158c747e378.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f28c0295-c9b6-4fdf-a209-28f86a54218a",
+            "Value": {
+                "id": "6ae67aac-adbd-48e0-9cf4-9e2e46f51446",
+                "resourcePath": "objects\\object_game\\object_game.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
