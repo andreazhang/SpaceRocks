@@ -1,4 +1,4 @@
-lives -= 1
+global.live -= 1
 
 with(object_game)
 	alarm[1] = room_speed

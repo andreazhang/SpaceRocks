@@ -11,4 +11,11 @@ if room == room_game{
 	}
 	
 	alarm[0] = 60;
+	
+	repeat 2 {
+		var powerup_spawn_x = choose(irandom_range(room_width * 0.3, room_width *0.4), irandom_range(room_width * 0.6, room_width *0.7))
+		var powerup_spawn_y = choose(irandom_range(room_height * 0.3, room_height *0.4), irandom_range(room_height * 0.6, room_height *0.7))
+		
+		instance_create_layer(powerup_spawn_x, powerup_spawn_y, "Instances", object_powerup)
+	}
 }

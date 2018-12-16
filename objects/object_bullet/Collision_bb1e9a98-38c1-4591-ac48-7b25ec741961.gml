@@ -1,4 +1,4 @@
-score += 10
+global.points += 10
 
 audio_play_sound(snd_die, 1, false)
 

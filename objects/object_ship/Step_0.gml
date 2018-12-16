@@ -17,9 +17,9 @@ if keyboard_check(vk_down) || keyboard_check(ord("S")){
 }
 
 if keyboard_check_pressed(vk_space){
-	var bullet = instance_create_layer(x, y, "Instances", object_bullet)
-	bullet.direction = image_angle
-		audio_play_sound(snd_zap, 1, false)
+	script_shoot_bullet()
+	if global.autoshooting
+		alarm[0] = global.fire_rate
 }
 
 move_wrap(true, true, sprite_width / 2)

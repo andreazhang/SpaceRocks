@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "26cfa162-fe35-4f60-9ead-4c619f5f7fff",
+            "Value": {
+                "id": "0cec4020-1c96-4a71-841d-32c2b77fcf7f",
+                "resourcePath": "objects\\object_powerup\\object_powerup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c78c0c9-c404-42df-8987-48d159011e86",
             "Value": {
                 "id": "7f37a599-a30f-404d-b40f-61696528758b",
@@ -188,6 +196,14 @@
                 "id": "db6cb8a2-612f-4207-a6e9-befdf51c5681",
                 "resourcePath": "views\\85ef892f-715b-405d-b765-911cdc5b489e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8827c63f-ab48-46ce-bb39-afd8446e259c",
+            "Value": {
+                "id": "622612cd-5d57-4805-b778-48af39396fad",
+                "resourcePath": "scripts\\script_shoot_bullet\\script_shoot_bullet.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -349,10 +365,18 @@
                 "resourcePath": "sounds\\snd_hurt\\snd_hurt.yy",
                 "resourceType": "GMSound"
             }
+        },
+        {
+            "Key": "fb7ee7c6-a0fc-4e07-be3d-adc466b21ff3",
+            "Value": {
+                "id": "58ab5db2-23e1-46e9-8a7c-8580b4bb0113",
+                "resourcePath": "sprites\\sprite_powerup_auto_shooting\\sprite_powerup_auto_shooting.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
-        
+        "8827c63f-ab48-46ce-bb39-afd8446e259c"
     ],
     "tutorial": ""
 }

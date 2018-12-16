@@ -12,12 +12,12 @@ if keyboard_check_pressed(vk_enter){
 }
 
 if room == room_game {
-	if(score >= 1000){
+	if(global.points >= 1000){
 		room_goto(room_win)
 		audio_play_sound(snd_win, 1, false)
 	}
 
-	if(lives <= 0){
+	if(global.live <= 0){
 		room_goto(room_gameover)
 		audio_play_sound(snd_lose, 1, false)
 	}	
